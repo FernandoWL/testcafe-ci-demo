@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/res.xml"
+        "test": "testcafe chrome:emulation:device=iphone X tests/**/* -r xunit:/tmp/test-results/res.xml"
       },
     "devDependencies": {
         "testcafe": "^1.9.0",
